@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/questionTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20sp"
+        android:backgroundTint="#ffff"
+        android:textColor="#ffff"
+        android:textColorHint="#99FFFFFF"
+        android:hint="Type your question here" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:buttonTint="@color/colorPink"
+            android:backgroundTint="#ffff"
+            android:textColor="#ffff"
+            android:textColorHint="#99FFFFFF"
+            android:id="@+id/rb" />
+
+        <TextView
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:textColor="#ffff"
+            android:textColorHint="#99FFFFFF"
+            android:hint="OPTION A"
+            android:id="@+id/rbText"
+            android:layout_marginStart="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:weightSum="1">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:backgroundTint="#ffff"
+            android:buttonTint="@color/colorPink"
+            android:textColor="#ffff"
+            android:textColorHint="#99FFFFFF"
+            android:id="@+id/rb2" />
+
+
+        <TextView
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OPTION B"
+            android:backgroundTint="#ffff"
+            android:textColor="#ffff"
+            android:textColorHint="#99FFFFFF"
+            android:id="@+id/rbText2"
+            android:layout_marginStart="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:weightSum="1">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPink"
+            android:id="@+id/rb3" />
+
+
+        <TextView
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="clear selected"
+            android:backgroundTint="#ffff"
+            android:textColor="#ffff"
+            android:textColorHint="#99FFFFFF"
+            android:id="@+id/rbText3"
+            android:layout_marginStart="20sp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
+        android:layout_marginTop="30sp"
+        android:weightSum="1">
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="REASON"
+            android:visibility="invisible"
+            android:backgroundTint="#ffff"
+            android:textColor="#ffff"
+            android:textColorHint="#99FFFFFF"
+            android:id="@+id/rt1"
+            android:layout_marginStart="10sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

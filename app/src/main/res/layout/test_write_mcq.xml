@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="20sp"
+        android:textColor="#ffff"
+        android:textColorHint="#B3FFFFFF"
+        android:backgroundTint="#ffff"
+        android:fontFamily="@font/lato_blackitalic"
+        android:hint="Type your question here" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:buttonTint="@color/colorPink"
+            android:textColor="#ffff"
+            android:id="@+id/radioButton" />
+
+        <TextView
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OPTION A"
+            android:textColor="#ffff"
+            android:textColorHint="#B3FFFFFF"
+            android:backgroundTint="#ffff"
+            android:id="@+id/radioText"
+            android:layout_marginStart="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:weightSum="1">
+
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:buttonTint="@color/colorPink"
+            android:textColor="#ffff"
+            android:id="@+id/radioButton2" />
+
+
+        <TextView
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OPTION B"
+            android:id="@+id/radioText2"
+            android:textColor="#ffff"
+            android:textColorHint="#B3FFFFFF"
+            android:backgroundTint="#ffff"
+            android:layout_marginStart="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:weightSum="1">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:buttonTint="@color/colorPink"
+            android:textColor="#ffff"
+            android:id="@+id/radioButton3" />
+
+        <TextView
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OPTION C"
+            android:id="@+id/radioText3"
+            android:textColor="#ffff"
+            android:textColorHint="#B3FFFFFF"
+            android:backgroundTint="#ffff"
+            android:layout_marginStart="20sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:weightSum="1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D"
+            android:buttonTint="@color/colorPink"
+            android:textColor="#ffff"
+            android:id="@+id/radioButton4" />
+
+        <TextView
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="OPTION D"
+            android:id="@+id/radioText4"
+            android:textColor="#ffff"
+            android:textColorHint="#B3FFFFFF"
+            android:backgroundTint="#ffff"
+            android:layout_marginStart="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp"
+        android:weightSum="1">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/colorPink"
+            android:id="@+id/radioButton5" />
+
+        <TextView
+            android:inputType="text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="clear selected"
+            android:textColor="#ffff"
+            android:id="@+id/radioText5"
+            android:layout_marginStart="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:weightSum="1">
+        <EditText
+            android:inputType="textMultiLine"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="REASON"
+            android:textColor="#ffff"
+            android:textColorHint="#B3FFFFFF"
+            android:backgroundTint="#ffff"
+            android:id="@+id/rt"
+            android:layout_marginStart="10sp" />
+
+
+    </LinearLayout>
+</LinearLayout>

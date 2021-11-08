@@ -1,0 +1,19 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.MainActivity"
+    >
+
+    <item android:id="@+id/storage"
+        android:title=""
+        android:icon="@drawable/storage"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/person_white"
+        android:title=""
+        app:showAsAction="always" />
+
+
+</menu>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.JAM.justaminute.ui.home.HomePage.Home"
+        android:label="JAM"
+        tools:layout="@layout/home_activity_main" />
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.JAM.justaminute.ui.search.SearchFragment"
+        android:label="JAM"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/navigation_test"
+        android:name="com.JAM.justaminute.ui.Test.Main.TestFragment"
+        android:label="JAM"
+        tools:layout="@layout/fragment_test" />
+</navigation>

@@ -1,0 +1,638 @@
+[
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_forum_fragment.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/forum_fragment.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_listview_background.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/listview_background.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_side_group_background.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/side_group_background.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/menu_attempt_menu.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/menu/attempt_menu.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_profession.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/profession.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_person.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/person.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_home_myprofile_profile.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/home_myprofile_profile.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_chat_audio_in.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/chat_audio_in.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_app_logo.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xxhdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_app_logo_foreground.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xxhdpi/app_logo_foreground.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_activity_storage.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/activity_storage.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_photo_library.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/photo_library.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_splash_main.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/splash_main.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_videocam.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/videocam.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_send.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/send.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_chat_image_out.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/chat_image_out.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_createquiz_createques.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_createquiz_createques.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_ic_map_black_24dp.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/ic_map_black_24dp.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_storage.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/storage.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_forum_background_comment.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/forum_background_comment.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_fragment_search.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/fragment_search.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_forum_create_activity.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/forum_create_activity.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_display_listview.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/display_listview.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_activity_image_crop.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/activity_image_crop.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_createquiz_groupview.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_createquiz_groupview.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_ic_search_black_24dp.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_fragment_home.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_grad.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/grad.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_home_chatbox_chat.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/home_chatbox_chat.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_listview_background_group.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/listview_background_group.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_referesh.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/referesh.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_app_logo.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-anydpi-v26/app_logo.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_ic_home_black_24dp.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_attachment.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/attachment.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_app_logo_round.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xxxhdpi/app_logo_round.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_info.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/info.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_roll_no.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/roll_no.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xhdpi_app_logo_round.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xhdpi/app_logo_round.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_dialog_testconfirm.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/dialog_testconfirm.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_home_addgroup.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/home_addgroup.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_group.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/group.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_app_logo_round.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xxhdpi/app_logo_round.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_josefin_sans_bold.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/josefin_sans_bold.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable-v24_finger.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable-v24/finger.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_dialog_contact.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/dialog_contact.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable-v24_next.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable-v24/next.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_createquiz_main.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_createquiz_main.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-mdpi_app_logo_round.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-mdpi/app_logo_round.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_app_logo_round.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-anydpi-v26/app_logo_round.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_fragment_test.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/fragment_test.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_circle.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/circle.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_chat_background.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/chat_background.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-hdpi_app_logo_round.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-hdpi/app_logo_round.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_activity_videoview.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/activity_videoview.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_josefin_sans_thin.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/josefin_sans_thin.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_home_group_groupprofile.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/home_group_groupprofile.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_chat_msg_out.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/chat_msg_out.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_write_multcorrect.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_write_multcorrect.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_feed_background_create.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/feed_background_create.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_check.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/check.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_attempt_viewtests.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_attempt_viewtests.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_app_logo_foreground.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xxxhdpi/app_logo_foreground.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_testsview.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/testsview.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_activity_photoview.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/activity_photoview.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_comments_view.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/comments_view.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_attempt.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_attempt.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/navigation_mobile_navigation.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/navigation/mobile_navigation.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_document.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/document.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_mic_off.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/mic_off.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_friend_chat.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/friend_chat.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_lato_thinitalic.ttf.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/lato_thinitalic.ttf"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_lato_blackitalic.ttf.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/lato_blackitalic.ttf"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_home_chatbox_friendprofile.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/home_chatbox_friendprofile.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_mic.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/mic.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_play_white.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/play_white.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_my_chat.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/my_chat.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_lato_italic.ttf.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/lato_italic.ttf"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_attach_background.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/attach_background.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_chat_image_in.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/chat_image_in.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_date_black.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/date_black.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/menu_main_menu.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_createquiz_mcq.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_createquiz_mcq.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_download.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/download.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-mdpi_app_logo.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-mdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_back.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/back.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_lato_lightitalic.ttf.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/lato_lightitalic.ttf"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/menu_chat_menu.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/menu/chat_menu.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_app_logo.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xxxhdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_lato_thin.ttf.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/lato_thin.ttf"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_textbox.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/textbox.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_forum_view.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/forum_view.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_write_mcq.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_write_mcq.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-hdpi_app_logo_foreground.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-hdpi/app_logo_foreground.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/menu_photo_menu.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/menu/photo_menu.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_cool_background.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/cool_background.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_home_listview_displayontype.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/home_listview_displayontype.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_activity_meeting.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/activity_meeting.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_lato_bold.ttf.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/lato_bold.ttf"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_border.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/border.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_write_trueorfalse.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_write_trueorfalse.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_chat_video_out.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/chat_video_out.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_createquiz_trueorfalse.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_createquiz_trueorfalse.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_person_white.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/person_white.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/menu_bottom_nav_menu.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_home_group_persons_addview.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/home_group_persons_addview.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_school_black.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/school_black.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_chat_document_out.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/chat_document_out.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_search_feedview.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/search_feedview.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_camera.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/camera.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_group_profile_img_view.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/group_profile_img_view.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_circle_border.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/circle_border.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_group_add.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/group_add.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_search_create_feed.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/search_create_feed.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_message.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/message.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_lato_light.ttf.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/lato_light.ttf"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_feed_bottom_bg.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/feed_bottom_bg.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_dancing_script.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/dancing_script.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_attempt_groupsview.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_attempt_groupsview.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_search_feed_feedmain.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/search_feed_feedmain.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xhdpi_app_logo.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xhdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_lato_regular.ttf.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/lato_regular.ttf"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_lato_black.ttf.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/lato_black.ttf"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_home_myprofile_profileini.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/home_myprofile_profileini.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_chat_msg_in.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/chat_msg_in.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_chat_document_in.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/chat_document_in.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_call.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/call.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_chat_video_in.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/chat_video_in.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_test_createquiz_multicorrect.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/test_createquiz_multicorrect.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-xhdpi_app_logo_foreground.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-xhdpi/app_logo_foreground.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/font_lato_bolditalic.ttf.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/font/lato_bolditalic.ttf"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-hdpi_app_logo.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-hdpi/app_logo.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/mipmap-mdpi_app_logo_foreground.png.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/mipmap-mdpi/app_logo_foreground.png"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_home_activity_main.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/home_activity_main.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_feed_background.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/feed_background.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_person_add.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/person_add.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_feed_background_img.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/feed_background_img.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_comments.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/comments.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_arrow_down.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/arrow_down.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_add.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/add.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_home_addperson.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/home_addperson.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/layout_chat_audio_out.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/layout/chat_audio_out.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_send_pure.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/send_pure.xml"
+    },
+    {
+        "merged": "/home/surya/Desktop/works/JAM/jam/app/build/intermediates/res/merged/debug/drawable_pause_white.xml.flat",
+        "source": "/home/surya/Desktop/works/JAM/jam/app/src/main/res/drawable/pause_white.xml"
+    }
+]

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".ui.home.Person.FriendProfile">
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/grad"
+        android:paddingBottom="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:id="@+id/rel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/circle_border">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/dp_friend"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginStart="9dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="9dp"
+                android:background="@drawable/circle"
+                android:onClick="imageClick"
+                android:padding="3dp"
+                android:src="@drawable/person_white" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/dpName_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rel2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-light"
+            android:text="  "
+            android:textColor="@android:color/white"
+            android:textSize="24dp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rel1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/roll_no"
+
+                    android:text="\t \t Roll No"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/roll_friend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:textColor="#ffff"
+                    android:backgroundTint="#ffff"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/call"
+
+                    android:text="\t \t Phone"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/phone_friend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:textColor="#ffff"
+                    android:backgroundTint="#ffff"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/date_black"
+
+                    android:text="\t \t DOB"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/age_friend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:textColor="#ffff"
+                    android:backgroundTint="#ffff"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/school_black"
+                    android:text="\t \t College"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/college_friend"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:enabled="false"
+                    android:focusable="false"
+                    android:gravity="center"
+                    android:inputType="none"
+                    android:textColor="#ffff"
+                    android:backgroundTint="#ffff"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

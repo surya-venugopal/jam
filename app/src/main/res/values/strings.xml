@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Jam</string>
+    <string name="title_home">Home</string>
+    <string name="title_test">Test</string>
+    <string name="title_search">Feed</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="type_of_ques">
+        <item>MCQ</item>
+        <item>MCQ with Reason</item>
+        <item>True or False</item>
+        <item>True or False with Reason</item>
+        <item>Multi Correct</item>
+        <item>Multi Correct with Reason</item>
+    </string-array>
+</resources>

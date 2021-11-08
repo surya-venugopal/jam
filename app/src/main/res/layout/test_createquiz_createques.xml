@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:fontFamily="@font/lato_black"
+            android:text="QUESTION"
+            android:textColor="#ffff"
+            android:textSize="30sp"
+            android:layout_marginEnd="20dp"/>
+
+        <TextView
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_black"
+            android:id="@+id/questionNumber"
+            android:layout_marginEnd="291dp"
+            android:text="1"
+            android:textColor="#ffff"
+            android:textSize="30sp"/>
+
+    </LinearLayout>
+
+        <include
+            android:id="@+id/mcq" layout="@layout/test_createquiz_mcq"
+            android:visibility="visible"/>
+        <include
+            android:id="@+id/trf" layout="@layout/test_createquiz_trueorfalse"
+            android:visibility="gone"/>
+        <include
+            android:id="@+id/mto" layout="@layout/test_createquiz_multicorrect"
+            android:visibility="gone"/>
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end|bottom">
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:id="@+id/nextfab"
+            android:visibility="visible"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:layout_margin="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Next"
+                android:textColor="@android:color/primary_text_dark" />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="start|bottom">
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:id="@+id/pre_card"
+            android:visibility="invisible"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:layout_margin="20dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="Previous"
+                android:textColor="#ffff"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="end">
+        <androidx.cardview.widget.CardView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/fab2"
+            android:visibility="visible"
+            app:cardElevation="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardBackgroundColor="@color/colorPrimary"
+            android:layout_margin="15dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Save and upload"
+
+                android:textColor="@android:color/primary_text_dark" />
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="16dp"
+            android:gravity="center_vertical"
+            android:text="Type of Question"
+
+            android:textColor="#ffff"
+            android:textSize="15sp" />
+
+        <Spinner
+            android:id="@+id/type_of_ques"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:backgroundTint="#CCFFFFFF"
+            android:background="#CCFFFFFF"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "691571517686",
+    "firebase_url": "https://jam-justaminute-fcc25.firebaseio.com",
+    "project_id": "jam-justaminute-fcc25",
+    "storage_bucket": "jam-justaminute-fcc25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691571517686:android:82e263dbfb63f8232164d7",
+        "android_client_info": {
+          "package_name": "com.JAM.justaminute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691571517686-h4fm3mjuurrq4tb97fj9thl2hetglevr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.JAM.justaminute",
+            "certificate_hash": "33210be9d5353d2af4b7e3eb6927c0acf8bb5474"
+          }
+        },
+        {
+          "client_id": "691571517686-al74a484h9ku77pffcvk8oan9sluk2eo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzC3T_OqQixHBKUKRCjuRCFlNsyDGzjCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691571517686-al74a484h9ku77pffcvk8oan9sluk2eo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

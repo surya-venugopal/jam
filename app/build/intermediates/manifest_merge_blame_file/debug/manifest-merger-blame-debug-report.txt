@@ -1,0 +1,605 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.JAM.justaminute"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+11-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:5:5-72
+11-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:5:22-69
+12    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+12-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:6:5-74
+12-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:6:22-71
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:7:5-66
+13-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:7:22-63
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:8:5-67
+14-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+15-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:9:5-80
+15-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:9:22-77
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+16-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:10:5-81
+16-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:10:22-78
+17    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+17-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:11:5-71
+17-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:11:22-68
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:12:5-65
+18-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:12:22-62
+19
+20    <supports-screens
+20-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:14:5-20:40
+21        android:anyDensity="true"
+21-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:15:9-34
+22        android:largeScreens="true"
+22-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:16:9-36
+23        android:normalScreens="true"
+23-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:17:9-37
+24        android:resizeable="true"
+24-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:18:9-34
+25        android:smallScreens="true"
+25-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:19:9-36
+26        android:xlargeScreens="true" />
+26-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:20:9-37
+27
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:12:5-79
+28-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:12:22-76
+29    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+29-->[com.google.android.gms:play-services-measurement-api:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/1a87335bab5f594870e30a0776cad6dc/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:24:5-68
+29-->[com.google.android.gms:play-services-measurement-api:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/1a87335bab5f594870e30a0776cad6dc/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:24:22-65
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+30-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:5-82
+30-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:26:22-79
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+31-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:26:22-107
+32
+33    <application
+33-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:22:5-116:19
+34        android:allowBackup="true"
+34-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:23:9-35
+35        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+35-->[androidx.core:core:1.1.0] /home/surya/.gradle/caches/transforms-2/files-2.1/6cdf211888e0a7ccbf81d39b63072413/core-1.1.0/AndroidManifest.xml:24:18-86
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:icon="@mipmap/app_logo"
+38-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:24:9-40
+39        android:label="@string/app_name"
+39-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:25:9-41
+40        android:roundIcon="@mipmap/app_logo_round"
+40-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:26:9-51
+41        android:supportsRtl="true"
+41-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:27:9-35
+42        android:testOnly="true"
+43        android:theme="@style/AppTheme" >
+43-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:28:9-40
+44        <activity android:name="com.JAM.justaminute.ui.Storage" />
+44-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:29:9-47
+44-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:29:19-45
+45        <activity android:name="com.JAM.justaminute.ui.search.Comments" />
+45-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:30:9-56
+45-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:30:19-53
+46        <activity android:name="com.JAM.justaminute.ui.search.Forum.ForumCreate" />
+46-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:31:9-65
+46-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:31:19-62
+47        <activity
+47-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:32:9-41:20
+48            android:name="com.JAM.justaminute.ui.SplashMain"
+48-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:33:13-42
+49            android:screenOrientation="portrait"
+49-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:34:13-49
+50            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+50-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:35:13-69
+51            <intent-filter>
+51-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:36:13-40:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:37:17-69
+52-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:37:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:39:17-77
+54-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:39:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:42:9-44:52
+58            android:name="com.JAM.justaminute.ui.home.Group.AddGroup"
+58-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:43:13-51
+59            android:screenOrientation="portrait" />
+59-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:44:13-49
+60        <activity
+60-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:45:9-47:52
+61            android:name="com.JAM.justaminute.ui.home.Person.AddPerson"
+61-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:46:13-53
+62            android:screenOrientation="portrait" />
+62-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:47:13-49
+63        <activity
+63-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:48:9-50:52
+64            android:name="com.JAM.justaminute.ui.home.MyProfile.Profile"
+64-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:49:13-54
+65            android:screenOrientation="portrait" />
+65-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:50:13-49
+66        <activity
+66-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:51:9-53:52
+67            android:name="com.JAM.justaminute.ui.home.MyProfile.profile_ini"
+67-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:52:13-58
+68            android:screenOrientation="portrait" />
+68-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:53:13-49
+69        <activity
+69-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:54:9-57:72
+70            android:name="com.JAM.justaminute.ui.home.MyProfile.DPViewActivity"
+70-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:55:13-61
+71            android:screenOrientation="portrait"
+71-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:56:13-49
+72            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+72-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:57:13-69
+73        <activity
+73-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:58:9-60:52
+74            android:name="com.JAM.justaminute.ui.home.Group.GroupProfile"
+74-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:59:13-55
+75            android:screenOrientation="portrait" />
+75-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:60:13-49
+76        <activity
+76-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:61:9-64:72
+77            android:name="com.JAM.justaminute.ui.home.Group.ChatGroup"
+77-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:62:13-52
+78            android:screenOrientation="portrait"
+78-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:63:13-49
+79            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+79-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:64:13-69
+80        <activity
+80-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:65:9-68:72
+81            android:name="com.JAM.justaminute.ui.home.Person.Chat"
+81-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:66:13-48
+82            android:screenOrientation="portrait"
+82-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:67:13-49
+83            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+83-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:68:13-69
+84        <activity
+84-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:69:9-71:52
+85            android:name="com.JAM.justaminute.ui.home.Person.FriendProfile"
+85-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:70:13-57
+86            android:screenOrientation="portrait" />
+86-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:71:13-49
+87        <activity
+87-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:72:9-75:72
+88            android:name="com.JAM.justaminute.ui.home.PhotoViewActivity"
+88-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:73:13-54
+89            android:screenOrientation="portrait"
+89-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:74:13-49
+90            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+90-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:75:13-69
+91        <activity
+91-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:76:9-79:72
+92            android:name="com.JAM.justaminute.ui.home.VideoViewActivity"
+92-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:77:13-54
+93            android:screenOrientation="portrait"
+93-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:78:13-49
+94            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+94-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:79:13-69
+95        <activity
+95-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:80:9-82:52
+96            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+96-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:81:13-76
+97            android:screenOrientation="portrait" />
+97-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:82:13-49
+98        <activity
+98-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:83:9-85:52
+99            android:name="com.JAM.justaminute.ui.Test.Create_Quiz.CreateQuizMain"
+99-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:84:13-63
+100            android:screenOrientation="portrait" />
+100-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:85:13-49
+101        <activity
+101-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:86:9-88:52
+102            android:name="com.JAM.justaminute.ui.Test.Create_Quiz.CreateQuestions"
+102-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:87:13-64
+103            android:screenOrientation="portrait" />
+103-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:88:13-49
+104        <activity
+104-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:89:9-91:52
+105            android:name="com.JAM.justaminute.ui.Test.Create_Quiz.ViewGroupsCreate"
+105-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:90:13-65
+106            android:screenOrientation="portrait" />
+106-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:91:13-49
+107        <activity
+107-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:92:9-94:52
+108            android:name="com.JAM.justaminute.ui.Test.AttemptQuiz.ViewGroupsAttempt"
+108-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:93:13-66
+109            android:screenOrientation="portrait" />
+109-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:94:13-49
+110        <activity
+110-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:95:9-97:52
+111            android:name="com.JAM.justaminute.ui.Test.AttemptQuiz.DisplayTests"
+111-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:96:13-61
+112            android:screenOrientation="portrait" />
+112-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:97:13-49
+113        <activity
+113-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:98:9-101:72
+114            android:name="com.JAM.justaminute.ui.Test.AttemptQuiz.AttemptQuiz"
+114-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:99:13-60
+115            android:screenOrientation="portrait"
+115-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:100:13-49
+116            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+116-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:101:13-69
+117        <activity
+117-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:102:9-104:52
+118            android:name="com.JAM.justaminute.ui.search.Feed.FeedCreate"
+118-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:103:13-54
+119            android:screenOrientation="portrait" />
+119-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:104:13-49
+120        <activity
+120-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:105:9-107:52
+121            android:name="com.JAM.justaminute.ui.LoginActivity"
+121-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:106:13-45
+122            android:screenOrientation="portrait" />
+122-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:107:13-49
+123        <activity
+123-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:108:9-111:52
+124            android:name="com.JAM.justaminute.ui.MainActivity"
+124-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:109:13-44
+125            android:label="@string/app_name"
+125-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:110:13-45
+126            android:screenOrientation="portrait" />
+126-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:111:13-49
+127
+128        <meta-data
+128-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:113:9-115:57
+129            android:name="preloaded_fonts"
+129-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:114:13-43
+130            android:resource="@array/preloaded_fonts" />
+130-->/home/surya/Desktop/works/JAM/jam/app/src/main/AndroidManifest.xml:115:13-54
+131        <meta-data
+131-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:16:9-18:69
+132            android:name="com.google.android.gms.version"
+132-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:17:13-58
+133            android:value="@integer/google_play_services_version" />
+133-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:18:13-66
+134        <meta-data
+134-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:19:9-21:63
+135            android:name="com.facebook.sdk.ApplicationId"
+135-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:20:13-58
+136            android:value="@string/facebook_application_id" />
+136-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:21:13-60
+137
+138        <activity
+138-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:23:9-27:61
+139            android:name="com.firebase.ui.auth.KickoffActivity"
+139-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:24:13-64
+140            android:exported="false"
+140-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:25:13-37
+141            android:label=""
+141-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:26:13-29
+142            android:theme="@style/FirebaseUI.Transparent" />
+142-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:27:13-58
+143        <activity
+143-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:28:9-32:61
+144            android:name="com.firebase.ui.auth.ui.idp.SingleSignInActivity"
+144-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:29:13-76
+145            android:exported="false"
+145-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:30:13-37
+146            android:label=""
+146-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:31:13-29
+147            android:theme="@style/FirebaseUI.Transparent" />
+147-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:32:13-58
+148        <activity
+148-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:33:9-37:61
+149            android:name="com.firebase.ui.auth.ui.credentials.CredentialSaveActivity"
+149-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:34:13-86
+150            android:exported="false"
+150-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:35:13-37
+151            android:label=""
+151-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:36:13-29
+152            android:theme="@style/FirebaseUI.Transparent" />
+152-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:37:13-58
+153        <activity
+153-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:38:9-42:58
+154            android:name="com.firebase.ui.auth.ui.email.RecoverPasswordActivity"
+154-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:39:13-81
+155            android:exported="false"
+155-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:40:13-37
+156            android:label="@string/fui_title_recover_password_activity"
+156-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:41:13-72
+157            android:windowSoftInputMode="adjustResize" />
+157-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:42:13-55
+158        <activity
+158-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:43:9-47:58
+159            android:name="com.firebase.ui.auth.ui.email.EmailActivity"
+159-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:44:13-71
+160            android:exported="false"
+160-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:45:13-37
+161            android:label="@string/fui_sign_in_default"
+161-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:46:13-56
+162            android:windowSoftInputMode="adjustResize" />
+162-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:47:13-55
+163        <activity
+163-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:48:9-52:77
+164            android:name="com.firebase.ui.auth.ui.phone.PhoneActivity"
+164-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:49:13-71
+165            android:exported="false"
+165-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:50:13-37
+166            android:label="@string/fui_sign_in_with_phone_number"
+166-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:51:13-66
+167            android:windowSoftInputMode="adjustResize|stateAlwaysVisible" />
+167-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:52:13-74
+168        <activity
+168-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:53:9-57:58
+169            android:name="com.firebase.ui.auth.ui.idp.WelcomeBackIdpPrompt"
+169-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:54:13-76
+170            android:exported="false"
+170-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:55:13-37
+171            android:label="@string/fui_title_welcome_back_idp_prompt"
+171-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:56:13-70
+172            android:windowSoftInputMode="adjustResize" />
+172-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:57:13-55
+173        <activity
+173-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:58:9-62:58
+174            android:name="com.firebase.ui.auth.ui.email.WelcomeBackPasswordPrompt"
+174-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:59:13-83
+175            android:exported="false"
+175-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:60:13-37
+176            android:label="@string/fui_title_welcome_back_password_prompt"
+176-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:61:13-75
+177            android:windowSoftInputMode="adjustResize" />
+177-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:62:13-55
+178        <activity
+178-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:63:9-67:58
+179            android:name="com.firebase.ui.auth.ui.email.WelcomeBackEmailLinkPrompt"
+179-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:64:13-84
+180            android:exported="false"
+180-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:65:13-37
+181            android:label="@string/fui_title_welcome_back_password_prompt"
+181-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:66:13-75
+182            android:windowSoftInputMode="adjustResize" />
+182-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:67:13-55
+183        <activity
+183-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:68:9-73:58
+184            android:name="com.firebase.ui.auth.ui.email.EmailLinkCatcherActivity"
+184-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:69:13-82
+185            android:exported="false"
+185-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:70:13-37
+186            android:label=""
+186-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:71:13-29
+187            android:theme="@style/FirebaseUI.Transparent"
+187-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:72:13-58
+188            android:windowSoftInputMode="adjustResize" />
+188-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:73:13-55
+189        <activity
+189-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:74:9-78:58
+190            android:name="com.firebase.ui.auth.ui.email.EmailLinkErrorRecoveryActivity"
+190-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:75:13-88
+191            android:exported="false"
+191-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:76:13-37
+192            android:label="@string/fui_sign_in_default"
+192-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:77:13-56
+193            android:windowSoftInputMode="adjustResize" />
+193-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:78:13-55
+194        <activity
+194-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:79:9-82:65
+195            android:name="com.firebase.ui.auth.ui.idp.AuthMethodPickerActivity"
+195-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:80:13-80
+196            android:exported="false"
+196-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:81:13-37
+197            android:label="@string/fui_default_toolbar_title" />
+197-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:82:13-62
+198        <activity
+198-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:83:9-87:48
+199            android:name="com.facebook.FacebookActivity"
+199-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:84:13-57
+200            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+200-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:85:13-96
+201            android:label="@string/app_name" />
+201-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:86:13-45
+202        <activity
+202-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:88:9-100:20
+203            android:name="com.facebook.CustomTabActivity"
+203-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:89:13-58
+204            android:exported="true" >
+204-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:90:13-36
+205            <intent-filter>
+205-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:92:13-99:29
+206                <action android:name="android.intent.action.VIEW" />
+206-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:93:17-69
+206-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:93:25-66
+207
+208                <category android:name="android.intent.category.DEFAULT" />
+208-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:95:17-76
+208-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:95:27-73
+209                <category android:name="android.intent.category.BROWSABLE" />
+209-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:96:17-78
+209-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:96:27-75
+210
+211                <data android:scheme="@string/facebook_login_protocol_scheme" />
+211-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:98:17-81
+211-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:98:23-78
+212            </intent-filter>
+213        </activity>
+214
+215        <provider
+215-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:102:9-106:38
+216            android:name="com.firebase.ui.auth.data.client.AuthUiInitProvider"
+216-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:103:13-79
+217            android:authorities="com.JAM.justaminute.authuiinitprovider"
+217-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:104:13-70
+218            android:exported="false"
+218-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:105:13-37
+219            android:initOrder="90" />
+219-->[com.firebaseui:firebase-ui-auth:6.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/b7da44b248e69eab049e088a5d527fb2/jetified-firebase-ui-auth-6.2.0/AndroidManifest.xml:106:13-35
+220        <provider
+220-->[com.squareup.picasso:picasso:2.71828] /home/surya/.gradle/caches/transforms-2/files-2.1/72dc444a4ba0fb5ebe3c67c538f4a808/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+221            android:name="com.squareup.picasso.PicassoProvider"
+221-->[com.squareup.picasso:picasso:2.71828] /home/surya/.gradle/caches/transforms-2/files-2.1/72dc444a4ba0fb5ebe3c67c538f4a808/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+222            android:authorities="com.JAM.justaminute.com.squareup.picasso"
+222-->[com.squareup.picasso:picasso:2.71828] /home/surya/.gradle/caches/transforms-2/files-2.1/72dc444a4ba0fb5ebe3c67c538f4a808/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+223            android:exported="false" />
+223-->[com.squareup.picasso:picasso:2.71828] /home/surya/.gradle/caches/transforms-2/files-2.1/72dc444a4ba0fb5ebe3c67c538f4a808/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+224
+225        <activity
+225-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:24:9-31:50
+226            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+226-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:25:13-85
+227            android:excludeFromRecents="true"
+227-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:26:13-46
+228            android:exported="true"
+228-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:27:13-36
+229            android:launchMode="singleTask"
+229-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:28:13-44
+230            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+230-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:29:13-102
+231            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+231-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:30:13-72
+232
+233        <service
+233-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:33:9-39:19
+234            android:name="com.google.firebase.components.ComponentDiscoveryService"
+234-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:34:13-84
+235            android:directBootAware="true"
+235-->[com.google.firebase:firebase-common:19.3.0] /home/surya/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:34:13-43
+236            android:exported="false" >
+236-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:35:13-37
+237            <meta-data
+237-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:36:13-38:85
+238                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+238-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:37:17-109
+239                android:value="com.google.firebase.components.ComponentRegistrar" />
+239-->[com.google.firebase:firebase-auth:19.3.1] /home/surya/.gradle/caches/transforms-2/files-2.1/1bbaf7abea02385a761c3d8376edeb69/jetified-firebase-auth-19.3.1/AndroidManifest.xml:38:17-82
+240            <meta-data
+240-->[com.google.firebase:firebase-storage:19.1.1] /home/surya/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:33:13-35:85
+241                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+241-->[com.google.firebase:firebase-storage:19.1.1] /home/surya/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:34:17-107
+242                android:value="com.google.firebase.components.ComponentRegistrar" />
+242-->[com.google.firebase:firebase-storage:19.1.1] /home/surya/.gradle/caches/transforms-2/files-2.1/2bae4ed60042b5247600f13f46496519/jetified-firebase-storage-19.1.1/AndroidManifest.xml:35:17-82
+243            <meta-data
+243-->[com.google.firebase:firebase-firestore:21.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/18d992b63b25ac03e9a6a1ee16c47e8b/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:20:13-22:85
+244                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+244-->[com.google.firebase:firebase-firestore:21.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/18d992b63b25ac03e9a6a1ee16c47e8b/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:21:17-111
+245                android:value="com.google.firebase.components.ComponentRegistrar" />
+245-->[com.google.firebase:firebase-firestore:21.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/18d992b63b25ac03e9a6a1ee16c47e8b/jetified-firebase-firestore-21.4.3/AndroidManifest.xml:22:17-82
+246            <meta-data
+246-->[com.google.android.gms:play-services-measurement-api:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/1a87335bab5f594870e30a0776cad6dc/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:30:13-32:85
+247                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+247-->[com.google.android.gms:play-services-measurement-api:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/1a87335bab5f594870e30a0776cad6dc/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:31:17-139
+248                android:value="com.google.firebase.components.ComponentRegistrar" />
+248-->[com.google.android.gms:play-services-measurement-api:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/1a87335bab5f594870e30a0776cad6dc/jetified-play-services-measurement-api-17.4.3/AndroidManifest.xml:32:17-82
+249            <meta-data
+249-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:32:13-34:85
+250                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+250-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:33:17-96
+251                android:value="com.google.firebase.components.ComponentRegistrar" />
+251-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:34:17-82
+252            <meta-data
+252-->[com.google.firebase:firebase-installations:16.2.1] /home/surya/.gradle/caches/transforms-2/files-2.1/24f98841cbbf79502e11153458b54250/jetified-firebase-installations-16.2.1/AndroidManifest.xml:17:13-19:85
+253                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+253-->[com.google.firebase:firebase-installations:16.2.1] /home/surya/.gradle/caches/transforms-2/files-2.1/24f98841cbbf79502e11153458b54250/jetified-firebase-installations-16.2.1/AndroidManifest.xml:18:17-127
+254                android:value="com.google.firebase.components.ComponentRegistrar" />
+254-->[com.google.firebase:firebase-installations:16.2.1] /home/surya/.gradle/caches/transforms-2/files-2.1/24f98841cbbf79502e11153458b54250/jetified-firebase-installations-16.2.1/AndroidManifest.xml:19:17-82
+255        </service>
+256
+257        <activity
+257-->[com.google.android.gms:play-services-auth:18.0.0] /home/surya/.gradle/caches/transforms-2/files-2.1/bd15c1042c9c3e1feddcdb7b9c87d6a4/jetified-play-services-auth-18.0.0/AndroidManifest.xml:23:9-27:75
+258            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+258-->[com.google.android.gms:play-services-auth:18.0.0] /home/surya/.gradle/caches/transforms-2/files-2.1/bd15c1042c9c3e1feddcdb7b9c87d6a4/jetified-play-services-auth-18.0.0/AndroidManifest.xml:24:13-93
+259            android:excludeFromRecents="true"
+259-->[com.google.android.gms:play-services-auth:18.0.0] /home/surya/.gradle/caches/transforms-2/files-2.1/bd15c1042c9c3e1feddcdb7b9c87d6a4/jetified-play-services-auth-18.0.0/AndroidManifest.xml:25:13-46
+260            android:exported="false"
+260-->[com.google.android.gms:play-services-auth:18.0.0] /home/surya/.gradle/caches/transforms-2/files-2.1/bd15c1042c9c3e1feddcdb7b9c87d6a4/jetified-play-services-auth-18.0.0/AndroidManifest.xml:26:13-37
+261            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+261-->[com.google.android.gms:play-services-auth:18.0.0] /home/surya/.gradle/caches/transforms-2/files-2.1/bd15c1042c9c3e1feddcdb7b9c87d6a4/jetified-play-services-auth-18.0.0/AndroidManifest.xml:27:13-72
+262        <!--
+263            Service handling Google Sign-In user revocation. For apps that do not integrate with
+264            Google Sign-In, this service will never be started.
+265        -->
+266        <service
+266-->[com.google.android.gms:play-services-auth:18.0.0] /home/surya/.gradle/caches/transforms-2/files-2.1/bd15c1042c9c3e1feddcdb7b9c87d6a4/jetified-play-services-auth-18.0.0/AndroidManifest.xml:33:9-36:110
+267            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+267-->[com.google.android.gms:play-services-auth:18.0.0] /home/surya/.gradle/caches/transforms-2/files-2.1/bd15c1042c9c3e1feddcdb7b9c87d6a4/jetified-play-services-auth-18.0.0/AndroidManifest.xml:34:13-89
+268            android:exported="true"
+268-->[com.google.android.gms:play-services-auth:18.0.0] /home/surya/.gradle/caches/transforms-2/files-2.1/bd15c1042c9c3e1feddcdb7b9c87d6a4/jetified-play-services-auth-18.0.0/AndroidManifest.xml:35:13-36
+269            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+269-->[com.google.android.gms:play-services-auth:18.0.0] /home/surya/.gradle/caches/transforms-2/files-2.1/bd15c1042c9c3e1feddcdb7b9c87d6a4/jetified-play-services-auth-18.0.0/AndroidManifest.xml:36:13-107
+270
+271        <receiver
+271-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:37:9-44:20
+272            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+272-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:38:13-78
+273            android:exported="true"
+273-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:39:13-36
+274            android:permission="com.google.android.c2dm.permission.SEND" >
+274-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:40:13-73
+275            <intent-filter>
+275-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:41:13-43:29
+276                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+276-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:17-81
+276-->[com.google.firebase:firebase-iid:20.1.5] /home/surya/.gradle/caches/transforms-2/files-2.1/fd2acbb8b2ae52f4c2ceceeddfa81b11/jetified-firebase-iid-20.1.5/AndroidManifest.xml:42:25-78
+277            </intent-filter>
+278        </receiver>
+279
+280        <activity
+280-->[com.google.android.gms:play-services-base:17.1.0] /home/surya/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+281            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+281-->[com.google.android.gms:play-services-base:17.1.0] /home/surya/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+282            android:exported="false"
+282-->[com.google.android.gms:play-services-base:17.1.0] /home/surya/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+283            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+283-->[com.google.android.gms:play-services-base:17.1.0] /home/surya/.gradle/caches/transforms-2/files-2.1/73f874509465423414ab7604a318e1cc/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+284
+285        <receiver
+285-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:29:9-33:20
+286            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+286-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:30:13-85
+287            android:enabled="true"
+287-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:31:13-35
+288            android:exported="false" >
+288-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:32:13-37
+289        </receiver>
+290
+291        <service
+291-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:35:9-38:40
+292            android:name="com.google.android.gms.measurement.AppMeasurementService"
+292-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:36:13-84
+293            android:enabled="true"
+293-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:37:13-35
+294            android:exported="false" />
+294-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:38:13-37
+295        <service
+295-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:39:9-43:72
+296            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+296-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:40:13-87
+297            android:enabled="true"
+297-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:41:13-35
+298            android:exported="false"
+298-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:42:13-37
+299            android:permission="android.permission.BIND_JOB_SERVICE" />
+299-->[com.google.android.gms:play-services-measurement:17.4.3] /home/surya/.gradle/caches/transforms-2/files-2.1/03b7eaa07fd26b913ec33ed3a9ff4ee2/jetified-play-services-measurement-17.4.3/AndroidManifest.xml:43:13-69
+300
+301        <provider
+301-->[com.google.firebase:firebase-common:19.3.0] /home/surya/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:26:9-30:39
+302            android:name="com.google.firebase.provider.FirebaseInitProvider"
+302-->[com.google.firebase:firebase-common:19.3.0] /home/surya/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:27:13-77
+303            android:authorities="com.JAM.justaminute.firebaseinitprovider"
+303-->[com.google.firebase:firebase-common:19.3.0] /home/surya/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:28:13-72
+304            android:exported="false"
+304-->[com.google.firebase:firebase-common:19.3.0] /home/surya/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:29:13-37
+305            android:initOrder="100" />
+305-->[com.google.firebase:firebase-common:19.3.0] /home/surya/.gradle/caches/transforms-2/files-2.1/d5ae2f905dca277d72c2333071856016/jetified-firebase-common-19.3.0/AndroidManifest.xml:30:13-36
+306        <provider
+306-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+307            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+307-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+308            android:authorities="com.JAM.justaminute.lifecycle-process"
+308-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+309            android:exported="false"
+309-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+310            android:multiprocess="true" />
+310-->[androidx.lifecycle:lifecycle-process:2.2.0] /home/surya/.gradle/caches/transforms-2/files-2.1/fbb45a1792cf0e97ccf5507b087b63b1/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+311    </application>
+312
+313</manifest>
